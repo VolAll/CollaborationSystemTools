@@ -1,0 +1,9 @@
+﻿<config xmlns="http://v8.1c.ru/v8/tech-log">
+   <log location="D:\temp\logs" history="1">
+       <event>
+           <eq property="name" value="SYSTEM" />
+       </event>
+       <property name="All"/>
+   </log>
+   <system level="trace" component="ecscore"/>
+</config>
